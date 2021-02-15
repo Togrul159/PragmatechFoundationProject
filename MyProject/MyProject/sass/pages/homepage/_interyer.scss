@@ -1,0 +1,266 @@
+// Navbar start
+#Navbar-int{
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 600px;
+    width: 100%;
+    position: relative;
+    z-index: 1;
+    .top-nav-int {
+        
+      .overlay {
+        position: absolute;
+        width: 100%;
+        height: 840px;
+        background-color: rgba(0, 0, 0, 0.7);
+        top: -240px;
+        z-index: -1;
+      }
+      .nav-int-logo {
+        width: 15%;
+        img {
+          width: 100%;
+        }
+      }
+      .nav-int-item {
+        a {
+          text-decoration: none;
+          color: #f8f8f8;
+          font-size: 18px;
+          padding: 0 10px;
+          font-weight: 600;
+          transition: all 0.4s ease;
+          &:hover {
+            color: #daa760;
+          }
+        }
+      }
+      .nav-int-social {
+        a {
+          text-decoration: none;
+          color: #f8f8f8;
+          font-size: 16px;
+          padding: 0 10px;
+          font-weight: 400;
+          transition: all 0.4s ease;
+          &:hover {
+            color: #daa760;
+          }
+        }
+      }
+    }
+    .nav-int-text{
+        h1{
+            text-align: center;
+            font-size: 120px;
+            color: #daa760;
+            font-weight:400;
+            margin-top: 4rem;
+        }
+    }
+  }
+//Navbar end
+
+// First-int start
+
+#First-int{
+    background-color: #130f0c;
+    height: 1000px;
+    .first-int-chef{
+           margin-top: 100px;
+          
+            h2{
+                  color: #d29a5a;
+                  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+                  margin-top: 20px;
+                  border-bottom: 1px solid #d29a5a;
+                  padding-bottom: 15px;
+            }
+            span{
+                color: #d1c8bb;
+                font-family: 'Times New Roman', Times, serif;
+                font-size: 26px;
+            }
+          
+            h1{
+                color: #d29a5a;
+                margin-top: 20px;
+                margin-left: 25px;
+            }
+             p{
+                color: #d1c8bb;
+                margin-left: 25px;
+                padding-bottom: 15px;
+                font-size: 17px;
+                border-bottom: 1px solid #d29a5a;
+            }
+    }
+}
+
+// First-int end
+
+// Cabinets start
+#Cabinets {
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    height: 500px;
+    position: relative;
+    z-index: 1;
+    .overlay {
+      position: absolute;
+      width: 100%;
+      height: 500px;
+      background-color: rgba(0, 0, 0, 0.5);
+      top: 0px;
+      z-index: -1;
+    }
+    img {
+      width: 100%;
+    }
+    .cabinets-text {
+      text-align: center;
+      padding: 180px;
+      h1 {
+        color: #fff6f6;
+        font-size: 60px;
+        padding-bottom: 40px;
+        border-bottom: 3px solid #daa760;
+      }
+    }
+  }
+// Cabinets end
+
+// Cabinets-item start
+#Cabinets-item{
+    background-color: #130f0c;
+    height: 1500px;
+}
+// Cabinets-item end
+
+// Int start
+#Int {
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    height: 500px;
+    position: relative;
+    z-index: 1;
+    .overlay {
+      position: absolute;
+      width: 100%;
+      height: 500px;
+      background-color: rgba(0, 0, 0, 0.5);
+      top: 0px;
+      z-index: -1;
+    }
+    img {
+      width: 100%;
+    }
+    .int-text {
+      text-align: center;
+      padding: 180px;
+      h1 {
+        color: #fff6f6;
+        font-size: 60px;
+        padding-bottom: 40px;
+        border-bottom: 3px solid #daa760;
+      }
+    }
+  }
+// Int end
+
+// Interyer-item start
+
+#Interyer-item{
+    background-color: #130f0c;
+    height: 800px;
+}
+
+// Interyer-item end
+
+// Reservation-int start
+#Interyer-reservation {
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    height: 400px;
+    position: relative;
+    z-index: 1;
+    .overlay {
+      position: absolute;
+      width: 100%;
+      height: 400px;
+      background-color: rgba(0, 0, 0, 0.5);
+      top: 0px;
+      z-index: -1;
+    }
+    .int-text {
+      margin-top: 220px;
+      h1 {
+        color: #f8f8f8;
+        font-weight: 700;
+      }
+      h5 {
+        color: #d29a5a;
+        font-size: 25px;
+      }
+      .btn {
+        border: 1px solid #daa760;
+        padding: 20px 50px;
+        font-size: 14px;
+        text-decoration: none;
+        color: #ffe9e9;
+        letter-spacing: 4px;
+        background-color: #daa760;
+        font-weight: 500;
+        margin-left: 200px;
+        transition: all 0.4s ease;
+        &:hover {
+          background-color: transparent;
+          color: #d29a5a;
+        }
+      }
+    }
+  }
+  // Reservation-int end
+
+  // Footer start
+#Footer-int {
+    background-color: #130f0c;
+    height: 600px;
+    .info-int {
+      margin-top: 100px;
+      i {
+        color: #d29a5a;
+        font-size: 38px;
+        margin: 0 10px;
+        cursor: pointer;
+      }
+      span {
+        color: #d1c8bb;
+        font-size: 14px;
+        margin-left: 20px;
+        letter-spacing: 1px;
+      }
+    }
+    .logo-social {
+      text-align: center;
+      img {
+        width: 25%;
+        margin-top: 250px;
+      }
+      .in-fb {
+        margin: 40px;
+        a {
+          color: #d1c8bb;
+          cursor: pointer;
+          text-decoration: none;
+          margin: 10px;
+        }
+      }
+    }
+  }
+  
+  // Footer end

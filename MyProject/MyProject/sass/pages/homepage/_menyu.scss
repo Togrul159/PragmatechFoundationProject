@@ -1,0 +1,384 @@
+// Navbar start
+#Navbar-menyu{
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 600px;
+    width: 100%;
+    position: relative;
+    z-index: 1;
+    .top-nav-menyu {
+        
+      .overlay {
+        position: absolute;
+        width: 100%;
+        height: 840px;
+        background-color: rgba(0, 0, 0, 0.7);
+        top: -240px;
+        z-index: -1;
+      }
+      .nav-menyu-logo {
+        width: 15%;
+        img {
+          width: 100%;
+        }
+      }
+      .nav-menyu-item {
+        a {
+          text-decoration: none;
+          color: #f8f8f8;
+          font-size: 18px;
+          padding: 0 10px;
+          font-weight: 600;
+          transition: all 0.4s ease;
+          &:hover {
+            color: #daa760;
+          }
+        }
+      }
+      .nav-menyu-social {
+        a {
+          text-decoration: none;
+          color: #f8f8f8;
+          font-size: 16px;
+          padding: 0 10px;
+          font-weight: 400;
+          transition: all 0.4s ease;
+          &:hover {
+            color: #daa760;
+          }
+        }
+      }
+    }
+    .nav-menyu-text{
+        h1{
+            text-align: center;
+            font-size: 120px;
+            color: #daa760;
+            font-weight:400;
+            margin-top: 4rem;
+        }
+    }
+  }
+// Navbar end
+
+// Soup start
+
+ #Soup{
+    background-color: #130f0c;
+    height: 700px;
+    width: 100%;
+    margin-top: 17.1rem;
+    .soup {
+      img{
+        border-radius: 7px;
+      }
+        .soup-menu {
+          margin-top: 100px;
+          h1 {
+            color: #daa760;
+            margin-bottom: 45px;
+            font-weight: 500;
+          }
+          
+          h5 {
+            color: #fff2f2;
+            padding: 10px;
+          }
+          strong {
+            color: #daa760;
+            letter-spacing: 1px;
+          }
+          p {
+            color: #b1742f;
+          }
+        }
+    }
+ }
+
+// Soup end
+
+// Pizza-Pasta start
+ 
+#Pizza{
+    background-color: #130f0c;
+    height: 1400px;
+    .pizza {
+      img{
+        border-radius: 7px;
+        }
+        .pizza-menu {
+            margin-top:120px ;
+            margin-left: 120px;
+          h1 {
+            color: #daa760;
+            margin-bottom: 45px;
+            font-weight: 500;
+          }
+          
+          h5 {
+            color: #fff2f2;
+            padding: 10px;
+          }
+          strong {
+            color: #daa760;
+            letter-spacing: 1px;
+          }
+          p {
+            color: #b1742f;
+          }
+        }
+    }
+    .pasta{
+      img{
+        border-radius: 7px;
+       }
+        .pasta-menu {
+            margin-top:300px ;
+          h1 {
+            color: #daa760;
+            margin-bottom: 45px;
+            font-weight: 500;
+          }
+          
+          h5 {
+            color: #fff2f2;
+            padding: 10px;
+          }
+          strong {
+            color: #daa760;
+            letter-spacing: 1px;
+          }
+          p {
+            color: #b1742f;
+          }
+        }
+    }
+ }
+
+
+
+// Pizza-Pasta end
+
+// Salad-Snacks start
+ 
+#Salad{
+    background-color: #130f0c;
+    height: 2000px;
+    
+    .salad {
+      img{
+        border-radius: 7px;
+      }
+        .salad-menu {
+            margin-top:300px ;
+            margin-left: 120px;
+          h1 {
+            color: #daa760;
+            margin-bottom: 25px;
+            font-weight: 500;
+          }
+          
+          h5 {
+            color: #fff2f2;
+            padding: 10px;
+          }
+          strong {
+            color: #daa760;
+            letter-spacing: 1px;
+          }
+          p {
+            color: #b1742f;
+          }
+        }
+    }
+    .snacks{
+
+      img{
+        border-radius: 7px;
+      }
+        .snacks-menu {
+            margin-top:300px ;
+          h1 {
+            color: #daa760;
+            margin-bottom: 45px;
+            font-weight: 500;
+          }
+          
+          h5 {
+            color: #fff2f2;
+            padding: 10px;
+          }
+          strong {
+            color: #daa760;
+            letter-spacing: 1px;
+          }
+          p {
+            color: #b1742f;
+          }
+        }
+    }
+ }
+
+// Salad-Snacks end
+
+// Hot dishes start
+
+#Dishes{
+  background-color: #130f0c;
+  height: 1800px;
+  .dishes {
+     padding-top: 7rem;
+     img{
+      border-radius: 7px;
+    }
+    .dishes-menu {
+        margin-top:120px ;
+        margin-left: 120px;
+      h1 {
+        color: #daa760;
+        margin-bottom: 45px;
+        font-weight: 500;
+      }
+      
+      h5 {
+        color: #fff2f2;
+        padding: 10px;
+      }
+      strong {
+        color: #daa760;
+        letter-spacing: 1px;
+      }
+      p {
+        color: #b1742f;
+      }
+    }
+  }
+}
+
+// Hot dishes end
+
+// Drinks start
+
+#Drinks{
+  background-color: #130f0c;
+  height: 2500px;
+  img{
+    border-radius: 7px;
+  }
+  .drinks {
+     padding-top: 7rem;
+    .drinks-menu {
+        margin-top:120px ;
+        
+      h1 {
+        color: #daa760;
+        margin-bottom: 45px;
+        font-weight: 500;
+      }
+      h3{
+        color: #daa760;
+        font-weight: 500;
+      }
+      
+      h5 {
+        color: #fff2f2;
+        padding: 10px;
+      }
+      strong {
+        color: #daa760;
+        letter-spacing: 1px;
+      }
+      p {
+        color: #b1742f;
+      }
+    }
+  }
+}
+
+// Drinks end
+
+// Reservation-menu start
+#Menu-reservation {
+  background-position: center;
+  background-size: cover;
+  width: 100%;
+  height: 400px;
+  position: relative;
+  z-index: 1;
+  .overlay {
+    position: absolute;
+    width: 100%;
+    height: 400px;
+    background-color: rgba(0, 0, 0, 0.5);
+    top: 0px;
+    z-index: -1;
+  }
+  .menu-text {
+    margin-top: 220px;
+    h1 {
+      color: #f8f8f8;
+      font-weight: 700;
+    }
+    h5 {
+      color: #d29a5a;
+      font-size: 25px;
+    }
+    .btn {
+      border: 1px solid #daa760;
+      padding: 20px 50px;
+      font-size: 14px;
+      text-decoration: none;
+      color: #ffe9e9;
+      letter-spacing: 4px;
+      background-color: #daa760;
+      font-weight: 500;
+      margin-left: 200px;
+      transition: all 0.4s ease;
+      &:hover {
+        background-color: transparent;
+        color: #d29a5a;
+      }
+    }
+  }
+}
+// Reservation-menu end
+
+// Footer start
+#Footer-menu {
+  background-color: #130f0c;
+  height: 600px;
+  .info-menu {
+    margin-top: 100px;
+    i {
+      color: #d29a5a;
+      font-size: 38px;
+      margin: 0 10px;
+      cursor: pointer;
+    }
+    span {
+      color: #d1c8bb;
+      font-size: 14px;
+      margin-left: 20px;
+      letter-spacing: 1px;
+    }
+  }
+  .logo-social {
+    text-align: center;
+    img {
+      width: 25%;
+      margin-top: 250px;
+    }
+    .in-fb {
+      margin: 40px;
+      a {
+        color: #d1c8bb;
+        cursor: pointer;
+        text-decoration: none;
+        margin: 10px;
+      }
+    }
+  }
+}
+
+// Footer end
