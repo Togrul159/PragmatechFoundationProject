@@ -1,0 +1,173 @@
+// Navbar Start
+#Navbar-about{
+    width: 100%;
+    height: 70px;
+    .nav-item-about{
+
+        .nav-text-about{
+
+            a{
+                color: #212529;
+                text-decoration: none;
+                font-size: 20px;
+                font-weight: 600;
+                margin-right: 20px;
+                font-family: 'Lato', sans-serif;
+                transition:all .3s ease;
+               &:hover{
+                   color: #5e5e5ed3;
+               }
+            }
+        }
+    }
+}
+#media-about{
+    display: none;
+}
+// Navbar End
+
+// First start
+
+#First-about{
+    width: 100%;
+    height: 100px;
+    text-align: center;
+    h1{ 
+        color: #212529;
+        margin-top: 10rem;
+        font-weight: 200;
+        font-size: 60px;
+    }
+}
+
+// First end
+
+// Slider start
+
+#Slider{
+    width: 100%;
+    height: 450px;
+    margin-top: 20rem;
+}
+
+// Slider end
+
+
+
+
+// Third Section Start
+
+#Third{
+    width: 100%;
+    height: 1000px;
+    text-align: center;
+    .third-text{
+        h1{
+            color: #212529;
+            font-size: 60px;
+            font-family: 'Lato', sans-serif;
+            font-weight: 500;
+        }
+        p{
+            color: #212529;
+            font-weight: 350;
+            margin-top: 40px;
+            line-height: 38px;
+            letter-spacing: 1px;
+        }
+    }
+    .third-item{
+        h3{
+        color: #212529;
+        font-size: 20px;
+        font-family: 'Lato', sans-serif;
+        font-weight: 600;
+        margin-top: 20px;
+        line-height: 33px;
+        }
+        p{
+        color: #282a2b;
+        font-weight: 200;
+        margin-top: 30px;
+        line-height: 30px;
+        }
+    }
+}
+
+
+
+
+// Third Section End
+
+// Futer start
+
+#Futer-about{
+    width: 100%;
+    height: 40px;
+    text-align: center;
+    margin-top: 20px;
+    p{
+       color: #212529;
+       font-weight: 500;
+    }
+
+}
+
+// Futer end
+
+// Media start
+@media screen and (max-width: 1200px) {
+    #First-about{
+        h1{
+            font-size: 40px ;
+        }
+    }
+    #Third{
+
+        .third-text{
+            h1{
+                font-size: 40px;
+            }
+            p{
+                font-size: 18px;
+                letter-spacing: normal;
+                line-height: normal;
+            }
+        }
+    }
+    #Futer-about{
+        margin-top: 119rem;
+    }
+    #Navbar-about{
+        display: none;
+    }
+    #media-about{
+        display: block;
+        .logo{
+            margin-left: 30px;
+        }
+        .navbar-toggler{
+            margin-right: 30px;
+            padding: 10px 10px;
+            border-radius: 30%;
+        }
+        .bg-white{
+            text-align: center;
+        .media-text{
+            a{
+                color: #212529;
+                text-decoration: none;
+                font-size: 20px;
+                font-weight: 600;
+                margin-right: 20px;
+                font-family: 'Lato', sans-serif;
+                transition:all .3s ease;
+               &:hover{
+                   color: #5e5e5ed3;
+               }
+            }
+        }
+        }
+    }
+}
+// Media end
