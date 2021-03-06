@@ -1,0 +1,271 @@
+#Navbar {
+  width: 100%;
+  height: 70px;
+}
+
+#Navbar .nav-item .nav-text .btn {
+  border: 1px solid #212529;
+  padding: 10px 10px;
+  font-size: 14px;
+  text-decoration: none;
+  color: #f8f8f8;
+  letter-spacing: 4px;
+  background-color: #212529;
+  font-weight: 500;
+  -webkit-transition: all 0.4s ease;
+  transition: all 0.4s ease;
+  border-radius: 10px;
+  margin-left: 10px;
+}
+
+#Navbar .nav-item .nav-text .btn:hover {
+  background-color: transparent;
+  color: #212529;
+}
+
+#Navbar .nav-item .nav-social {
+  margin: 20px 20px;
+}
+
+#media {
+  display: none;
+}
+
+#First {
+  width: 100%;
+  height: 250px;
+  margin-top: 10rem;
+}
+
+#First .first-item h1 {
+  color: #212529;
+  font-size: 70px;
+  font-family: 'Lato', sans-serif;
+  font-weight: 900;
+}
+
+#First .first-item h4 {
+  color: #212529;
+  font-weight: 350;
+  margin-top: 40px;
+  line-height: 38px;
+  letter-spacing: 1px;
+}
+
+#Second {
+  width: 100%;
+  margin-top: 10rem;
+  -webkit-clip-path: polygon(0 0, 100% 5%, 100% 100%, 0% 100%);
+          clip-path: polygon(0 0, 100% 5%, 100% 100%, 0% 100%);
+}
+
+#Second .second-img {
+  margin: -12px;
+  position: relative;
+  overflow: hidden;
+}
+
+#Second .second-img img {
+  width: 100%;
+  height: 500px;
+  -webkit-transition: all 1s ease-in-out;
+  transition: all 1s ease-in-out;
+}
+
+#Second .second-img img:hover {
+  -webkit-transform: scale(1.2);
+          transform: scale(1.2);
+}
+
+#Second .second-text {
+  position: absolute;
+}
+
+#Second .second-text h3 {
+  color: #f8f8f8;
+  font-weight: 400;
+  margin-top: -470px;
+}
+
+#Second .second-text p {
+  color: #f8f8f8;
+  font-weight: 400;
+}
+
+#Second .second-text .icon {
+  width: 50px;
+  margin-top: -120px;
+}
+
+#Second .second-text .icon2 {
+  width: 50px;
+  margin-top: -120px;
+}
+
+#Second .second-text .txt1 {
+  color: #f8f8f8;
+  font-weight: 400;
+  margin-top: -460px;
+}
+
+#Second .second-text .txt2 {
+  color: #f8f8f8;
+  font-weight: 200;
+}
+
+#Second .second-text-two {
+  position: absolute;
+}
+
+#Second .second-text-two h3 {
+  color: #f8f8f8;
+  font-weight: 400;
+  margin-top: -500px;
+}
+
+#Second .second-text-two p {
+  color: #f8f8f8;
+  font-weight: 400;
+}
+
+#Second .second-text-two .icon {
+  width: 50px;
+  margin-top: -120px;
+}
+
+#Second .second-text-two .icon2 {
+  width: 50px;
+  margin-top: -120px;
+}
+
+#Futer {
+  width: 100%;
+  height: 50px;
+  text-align: center;
+  margin-top: 50px;
+}
+
+#Futer p {
+  color: #212529;
+  font-weight: 500;
+  margin-top: 30px;
+}
+
+#Navbar-about {
+  width: 100%;
+  height: 70px;
+}
+
+#Navbar-about .nav-item-about .nav-text-about .btn {
+  border: 1px solid #212529;
+  padding: 10px 10px;
+  font-size: 14px;
+  text-decoration: none;
+  color: #f8f8f8;
+  letter-spacing: 4px;
+  background-color: #212529;
+  font-weight: 500;
+  -webkit-transition: all 0.4s ease;
+  transition: all 0.4s ease;
+  border-radius: 10px;
+  margin-left: 10px;
+}
+
+#Navbar-about .nav-item-about .nav-text-about .btn:hover {
+  background-color: transparent;
+  color: #212529;
+}
+
+#Navbar-about .nav-item-about .nav-social-about {
+  margin: 20px 20px;
+}
+
+#media-about {
+  display: none;
+}
+
+#First-about {
+  width: 100%;
+  height: 100px;
+  text-align: center;
+}
+
+#First-about h1 {
+  color: #212529;
+  margin-top: 10rem;
+  font-weight: 200;
+  font-size: 60px;
+}
+
+#Slider {
+  width: 100%;
+  height: 350px;
+  margin-top: 20rem;
+}
+
+#Third {
+  width: 100%;
+}
+
+#Third .third-title {
+  text-align: center;
+}
+
+#Third .third-title h1 {
+  color: #212529;
+  font-size: 60px;
+  font-family: 'Lato', sans-serif;
+  font-weight: 500;
+}
+
+#Third .third-title p {
+  color: #212529;
+  font-weight: 350;
+  margin-top: 40px;
+  line-height: 38px;
+  letter-spacing: 1px;
+}
+
+#Third .third-img {
+  margin-top: 100px;
+  padding: 20px 20px;
+}
+
+#Third .third-img img {
+  width: 200;
+  height: 200px;
+}
+
+#Third .third-text h3 {
+  color: #212529;
+  font-size: 20px;
+  font-family: 'Lato', sans-serif;
+  font-weight: 600;
+  margin-top: 20px;
+  line-height: 25px;
+  text-align: center;
+}
+
+#Third .third-text p {
+  color: #282a2b;
+  font-weight: 200;
+  line-height: 25px;
+  text-align: center;
+  word-break: break-all;
+  margin: 30px 16.2px;
+}
+
+#Futer-about {
+  width: 100%;
+  height: 70px;
+  text-align: center;
+  background-color: #cfcfcfd3;
+  margin-top: 70px;
+}
+
+#Futer-about p {
+  color: #212529;
+  font-weight: 500;
+  margin-top: 30px;
+}
+/*# sourceMappingURL=style.css.map */

@@ -1,0 +1,123 @@
+// Navbar Start
+#Navbar-about{
+    width: 100%;
+    height: 70px;
+    .nav-item-about{
+
+         .nav-text-about{
+
+            .btn{
+                border: 1px solid #212529;
+                padding: 10px 10px;
+                font-size: 14px;
+                text-decoration: none;
+                color: #f8f8f8;
+                letter-spacing: 4px;
+                background-color: #212529;
+                font-weight: 500;
+                transition: all 0.4s ease;
+                border-radius: 10px;
+                margin-left: 10px;
+                &:hover {
+                     background-color: transparent;
+                     color: #212529;
+                } 
+            } 
+        }
+        .nav-social-about{
+            margin: 20px 20px;
+        }
+    }
+}
+#media-about{
+    display: none;
+}
+// Navbar End
+// First Start
+#First-about{
+    width: 100%;
+    height: 100px;
+    text-align: center;
+    h1{ 
+        color: #212529;
+        margin-top: 10rem;
+        font-weight: 200;
+        font-size: 60px;
+    }
+}
+// First End
+
+// Slider Start
+#Slider{
+    width: 100%;
+    height: 350px;
+    margin-top: 20rem;
+}
+// Slider End
+// Third Start
+#Third{
+    width: 100%;
+    .third-title{
+        text-align: center;
+        h1{
+            color: #212529;
+            font-size: 60px;
+            font-family: 'Lato', sans-serif;
+            font-weight: 500;
+        }
+        p{
+            color: #212529;
+            font-weight: 350;
+            margin-top: 40px;
+            line-height: 38px;
+            letter-spacing: 1px;
+        }
+    }
+    .third-img{
+        margin-top: 100px;
+        padding: 20px 20px;
+        img{
+            width: 200;
+            height: 200px;
+        }
+        
+    }
+    .third-text{
+
+        h3{
+            color: #212529;
+            font-size: 20px;
+            font-family: 'Lato', sans-serif;
+            font-weight: 600;
+            margin-top: 20px;
+            line-height: 25px;
+            text-align: center;
+        }
+        p{
+            color: #282a2b;
+            font-weight: 200;
+            line-height: 25px;
+            text-align: center;
+            word-break: break-all;
+            margin: 30px 16.2px;
+        }
+    }
+}
+// Third End
+
+// Futer start
+
+#Futer-about{
+    width: 100%;
+    height: 70px;
+    text-align: center;
+    background-color: #cfcfcfd3;
+    margin-top: 70px;
+    p{
+       color: #212529;
+       font-weight: 500;
+       margin-top: 30px;
+    }
+}
+
+// Futer end
